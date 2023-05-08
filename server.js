@@ -102,3 +102,7 @@ process.on('SIGINT', () => {
         }    
     })
 })
+
+import { rps, rpsls } from "./lib/rpsls.js";
+
+
